@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerActions : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class PlayerActions : MonoBehaviour
 
     public Camera cam;
     public ParticleSystem muzzleFlash;
+    public GameObject damageIndicator;
 
     void Update()
     {
@@ -37,6 +39,9 @@ public class PlayerActions : MonoBehaviour
             if (enemyHealth != null)
             {
                 enemyHealth.TakeDamage(damage);
+                //SHOW DAMAGE INDICATOR
+                GameObject newIndicator = Instantiate(damageIndicator, hit.point, Quaternion.identity);
+                newIndicator.GetComponentInChildren<Text>().text = damage.ToString();
             }
         }
     }
