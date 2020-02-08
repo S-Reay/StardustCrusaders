@@ -15,6 +15,7 @@ public class PlayerMotor : MonoBehaviour
 
     Vector3 velocity;
     bool isGrounded;
+    bool hasDoubleJumped = false;
 
     void Start()
     {
@@ -24,6 +25,10 @@ public class PlayerMotor : MonoBehaviour
     void Update()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+        if (isGrounded)
+        {
+            hasDoubleJumped = false;
+        }
 
         if (isGrounded && velocity.y < 0f)
         {
@@ -38,10 +43,17 @@ public class PlayerMotor : MonoBehaviour
         controller.Move(move * speed * Time.deltaTime);
 
         //Jump
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded)              //If the player presses Jump on the ground
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
+
+        if (Input.GetButtonDown("Jump") && !isGrounded && !hasDoubleJumped)        //If the player presses jump in the air but has not double jumped
+        {
+            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            hasDoubleJumped = true;
+        }
+
 
         //Gravity
         velocity.y += gravity * Time.deltaTime;
