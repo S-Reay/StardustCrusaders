@@ -17,7 +17,6 @@ public class DamageIndicator : MonoBehaviour
         Destroy(gameObject, 2.5f);
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.rotation = camTransform.rotation * originalRotation;
