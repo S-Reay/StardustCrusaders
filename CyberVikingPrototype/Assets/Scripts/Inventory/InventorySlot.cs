@@ -6,13 +6,14 @@ public class InventorySlot : MonoBehaviour
     Item item;
     public Image icon;
     public Button removeButton;
+    public GameObject itemOptions;
 
     public void AddItem(Item newItem)
     {
         item = newItem;
         icon.sprite = item.icon;
         icon.enabled = true;
-        removeButton.interactable = true;
+        itemOptions.SetActive(false);
     }
 
     public void ClearSlot()
@@ -21,7 +22,7 @@ public class InventorySlot : MonoBehaviour
 
         icon.sprite = null;
         icon.enabled = false;
-        removeButton.interactable = false;
+        itemOptions.SetActive(false);
 
     }
 
@@ -35,6 +36,14 @@ public class InventorySlot : MonoBehaviour
         if (item != null)
         {
             item.Use();
+        }
+    }
+
+    public void SelectItem()
+    {
+        if (item != null)
+        {
+            itemOptions.SetActive(!itemOptions.activeSelf); //Toggles the item options
         }
     }
 }
