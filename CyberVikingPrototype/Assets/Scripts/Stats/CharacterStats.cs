@@ -23,7 +23,7 @@ public class CharacterStats : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int damage)
+    public int TakeDamage(int damage)
     {
         damage -= armour.GetValue();
         damage = Mathf.Clamp(damage, 0, int.MaxValue);  //Ensure damage never drops below zero which would cause healing on hit
@@ -35,6 +35,7 @@ public class CharacterStats : MonoBehaviour
         {
             Die();
         }
+        return damage;
     }
 
     public virtual void Die()
@@ -43,5 +44,6 @@ public class CharacterStats : MonoBehaviour
         //DIE DEPENDING ON WHO IT IS
 
         Debug.Log(transform.name + " died.");
+        Destroy(gameObject);
     }
 }

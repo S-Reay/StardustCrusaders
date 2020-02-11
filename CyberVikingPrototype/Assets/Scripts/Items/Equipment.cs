@@ -12,6 +12,8 @@ public class Equipment : Item
     public int moveSpeedModifier;
     public int jumpModifier;
 
+    public int modelID = 999; //Set to 999 as default to allow non weapon items to not affect model
+
     public override void Use()
     {
         base.Use();

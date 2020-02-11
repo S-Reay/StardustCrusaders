@@ -2,10 +2,10 @@
 
 public class EnemyHealth : MonoBehaviour
 {
-    public float health = 50f;
+    public int health = 50;
     public Rigidbody rb;
 
-    public void TakeDamage(float amount)
+    public void TakeDamage(int amount)
     {
         health -= amount;
         if (health <= 0f)
@@ -16,7 +16,6 @@ public class EnemyHealth : MonoBehaviour
 
     void Die()
     {
-        rb = GetComponent<Rigidbody>();
-        rb.isKinematic = false;
+
     }
 }
