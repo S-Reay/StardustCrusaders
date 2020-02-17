@@ -13,6 +13,9 @@ public class PlayerActions : MonoBehaviour
     public Camera cam;
     public GameObject damageIndicator;
 
+    public GameObject slashObject;
+    public Transform slashOrigin;
+
     private void Start()
     {
         stats = GetComponent<PlayerStats>();
@@ -22,13 +25,22 @@ public class PlayerActions : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            Shoot();
+            Slash();
         }
         if (Input.GetButtonDown("Interact"))
         {
             Interact();
         }
+        else if (Input.GetKeyDown(KeyCode.L))
+        {
+            Slash();
+        }
 
+    }
+
+    void Slash()
+    {
+        Instantiate(slashObject, slashOrigin.position, cam.transform.rotation);
     }
 
     void Shoot()
