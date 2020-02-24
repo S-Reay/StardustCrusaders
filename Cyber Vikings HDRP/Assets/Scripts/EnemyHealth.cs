@@ -2,7 +2,7 @@
 
 public class EnemyHealth : MonoBehaviour
 {
-    public int health = 50;
+    public int health = 200;
     public Rigidbody rb;
 
     public void TakeDamage(int amount)

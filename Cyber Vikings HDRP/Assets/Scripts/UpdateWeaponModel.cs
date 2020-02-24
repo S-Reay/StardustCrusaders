@@ -11,22 +11,28 @@ public class UpdateWeaponModel : MonoBehaviour
     private void Start()
     {
         equip = EquipmentManager.instance;
-        equip.onEquipmentChangedCallback += UpdateViewModel; //Calls function whenever a new item is added or removed
+        equip.onWeaponChangedCallback += UpdateViewModel; //Calls function whenever a new item is added or removed
         ModelSwitch();
 
     }
 
-    void UpdateViewModel(Equipment newItem, Equipment oldItem)
+    void UpdateViewModel(Weapon newWeapon, Weapon oldWeapon)
     {
         Debug.Log("Updating Model");
-        if (newItem.modelID != 999)
+        if (newWeapon == null)
         {
-            modelNumber = newItem.modelID;
+            modelNumber = 99;
+            ModelSwitch();
+            return;
+        }
+        if (newWeapon.modelID != 999)
+        {
+            modelNumber = newWeapon.modelID;
             ModelSwitch();
         }
         else
         {
-            Debug.LogError("Cannot find model for " + newItem.name);
+            Debug.LogError("Cannot find model for " + newWeapon.name);
         }
     }
 
