@@ -108,3 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
+  lifespan: 2.5
+  damage: 0
+  damageIndicator: {fileID: 6325200330165054203, guid: 2b3e873fd14ae644186961c092061ca3,
+    type: 3}

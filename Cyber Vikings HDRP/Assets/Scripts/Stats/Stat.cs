@@ -6,14 +6,14 @@ using UnityEngine;
 public class Stat
 {
     [SerializeField]
-    private int baseValue;
+    private int baseValue = 0;
 
     private List<int> modifiers = new List<int>();
 
     public int GetValue()
     {
         int finalValue = baseValue;
-        modifiers.ForEach(x => finalValue += x);
+        modifiers.ForEach(x => finalValue += x);    //wtf is this
         return finalValue;
     }
 
