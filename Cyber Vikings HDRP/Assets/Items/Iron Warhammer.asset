@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167f675d6e4b8074aaa0c7c47c708d0e, type: 3}
+  m_Name: Iron Warhammer
+  m_EditorClassIdentifier: 
+  name: Iron Warhammer
+  icon: {fileID: 21300000, guid: cc3ed436e47572648a62ea00ee2edb10, type: 3}
+  equipSlot: 4
+  armourModifier: 0
+  damageModifier: 13
+  moveSpeedModifier: 0
+  jumpModifier: 0
+  isTwoHanded: 0
+  rangedAttack: 2
+  modelID: 4
