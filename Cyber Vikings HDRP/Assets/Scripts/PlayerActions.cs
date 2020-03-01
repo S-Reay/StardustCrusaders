@@ -16,6 +16,11 @@ public class PlayerActions : MonoBehaviour
     public GameObject slashObject;
     public Transform slashOrigin;
 
+    public GameObject grenadeObject;
+    public Transform grenadeOrigin;
+    public float grenadeForwardForce;
+    public float grenadeUpForce;
+
     EquipmentManager equip;
     public Weapon currentWeapon;
 
@@ -141,7 +146,10 @@ public class PlayerActions : MonoBehaviour
 
     void GrenadeAttack()
     {
-
+        GameObject newGrenade = Instantiate(grenadeObject, grenadeOrigin.transform.position, Quaternion.identity);
+        Rigidbody rb = newGrenade.GetComponent<Rigidbody>();
+        newGrenade.GetComponent<GrenadeBehaviour>().SetDamage(stats.damage.GetValue());
+        rb.AddForce((Camera.main.transform.forward * grenadeForwardForce) + Vector3.up * grenadeUpForce, ForceMode.Impulse);
     }
 
     void MeleeAttack()

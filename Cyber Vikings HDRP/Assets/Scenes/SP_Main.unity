@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 29162688}
   m_Layer: 8
   m_Name: TestEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1717,7 +1717,7 @@ GameObject:
   - component: {fileID: 463710578}
   m_Layer: 8
   m_Name: TestEnemy (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1872,7 +1872,7 @@ PrefabInstance:
     - target: {fileID: 4073120423230424698, guid: bec21c5039e62a34d8fdf3e5ff10c0fd,
         type: 3}
       propertyPath: m_Name
-      value: Particle System
+      value: Neon Torch Particle
       objectReference: {fileID: 0}
     - target: {fileID: 4073120423230424699, guid: bec21c5039e62a34d8fdf3e5ff10c0fd,
         type: 3}
@@ -4266,6 +4266,7 @@ Transform:
   - {fileID: 1278590450}
   - {fileID: 1476950342}
   - {fileID: 322143813}
+  - {fileID: 1905640606}
   m_Father: {fileID: 1424769829}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5329,7 +5330,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: ccb04b7b2a2509a439e1dde17e82cdf3,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccb04b7b2a2509a439e1dde17e82cdf3, type: 3}
@@ -5905,7 +5906,7 @@ GameObject:
   - component: {fileID: 1415340552}
   m_Layer: 8
   m_Name: TestEnemy (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6124,7 +6125,6 @@ Transform:
   - {fileID: 963194228}
   - {fileID: 1467060446}
   - {fileID: 2096465068}
-  - {fileID: 1905640606}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6148,6 +6148,11 @@ MonoBehaviour:
   slashObject: {fileID: 210166961469643445, guid: 24845c9d9052edf408b117ee3c7bf3b6,
     type: 3}
   slashOrigin: {fileID: 1905640606}
+  grenadeObject: {fileID: 3536360433817715142, guid: 6b810f2aac014b842ba9b928a55a0aa6,
+    type: 3}
+  grenadeOrigin: {fileID: 1905640606}
+  grenadeForwardForce: 7
+  grenadeUpForce: 4
   currentWeapon: {fileID: 0}
   attackDelay: 0
   laserLineRenderer: {fileID: 963194231}
@@ -8393,12 +8398,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905640605}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.086, z: 1.739}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.46400005, z: 1.119}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1424769829}
-  m_RootOrder: 3
+  m_Father: {fileID: 963194228}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1908412388
 PrefabInstance:
@@ -9259,72 +9264,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcdda39a868b5e446a86644db52f89fe, type: 3}
---- !u!1001 &2084742083317683310
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3156995473603106704, guid: 6b810f2aac014b842ba9b928a55a0aa6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.670618
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156995473603106704, guid: 6b810f2aac014b842ba9b928a55a0aa6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.609
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156995473603106704, guid: 6b810f2aac014b842ba9b928a55a0aa6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 5.2923775
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156995473603106704, guid: 6b810f2aac014b842ba9b928a55a0aa6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156995473603106704, guid: 6b810f2aac014b842ba9b928a55a0aa6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156995473603106704, guid: 6b810f2aac014b842ba9b928a55a0aa6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156995473603106704, guid: 6b810f2aac014b842ba9b928a55a0aa6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156995473603106704, guid: 6b810f2aac014b842ba9b928a55a0aa6,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 22
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156995473603106704, guid: 6b810f2aac014b842ba9b928a55a0aa6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156995473603106704, guid: 6b810f2aac014b842ba9b928a55a0aa6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3156995473603106704, guid: 6b810f2aac014b842ba9b928a55a0aa6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3536360433817715142, guid: 6b810f2aac014b842ba9b928a55a0aa6,
-        type: 3}
-      propertyPath: m_Name
-      value: TestGrenade
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6b810f2aac014b842ba9b928a55a0aa6, type: 3}
