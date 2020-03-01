@@ -35,15 +35,11 @@ public class CharacterStats : MonoBehaviour
         {
             Die();
         }
-        return damage;
+        return damage;  //Returns damage taken to display on a damage indicator
     }
 
     public virtual void Die()
     {
-        //This method is meant to be overwritten
-        //DIE DEPENDING ON WHO IT IS
-
         Debug.Log(transform.name + " died.");
-        Destroy(gameObject);
     }
 }
