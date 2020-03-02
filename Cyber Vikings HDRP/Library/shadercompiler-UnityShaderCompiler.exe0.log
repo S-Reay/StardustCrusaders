@@ -1,5 +1,6 @@
 Base path: 'C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
 Cmd: preprocess
   insize=1409 outsize=289 ok=1
@@ -11,3 +12,5 @@ Cmd: preprocess
   insize=199511 outsize=7252 ok=1
 =======
 >>>>>>> Enemy Models, Animations, Ragdoll
+=======
+>>>>>>> EnemyModels
