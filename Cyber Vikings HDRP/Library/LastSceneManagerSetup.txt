@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< refs/remotes/origin/Main
 - path: Assets/Scenes/SP_EnemyAITest.unity
+=======
+- path: Assets/Scenes/JH_Greyboxing.unity
+>>>>>>> Continued Greyboxing
   isLoaded: 1
   isActive: 1
   isSubScene: 0
