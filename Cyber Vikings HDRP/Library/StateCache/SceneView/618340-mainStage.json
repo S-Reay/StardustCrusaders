@@ -1,1 +1,5 @@
+<<<<<<< refs/remotes/origin/Main
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":17.139999389648439,"y":1.119999885559082,"z":-1.559999942779541},"rotation":{"x":-0.08400674909353256,"y":-0.547675609588623,"z":0.055422697216272357,"w":-0.8306574821472168},"size":7.827724933624268,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":5.481821060180664,"y":2.2985520362854006,"z":45.85647201538086},"rotation":{"x":0.1068749651312828,"y":0.5402458906173706,"z":-0.06946433335542679,"w":0.8318381309509277},"size":6.39014196395874,"orthographic":false}
+>>>>>>> Enemy Models, Animations, Ragdoll
