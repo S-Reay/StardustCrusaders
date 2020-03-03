@@ -1102,10 +1102,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1372276507, guid: 3efd266456b672b4eb0325926f3cea3a, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 232202170364630439, guid: 3efd266456b672b4eb0325926f3cea3a,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -3577,10 +3573,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1372276507, guid: 3efd266456b672b4eb0325926f3cea3a, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 232202170364630439, guid: 3efd266456b672b4eb0325926f3cea3a,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -5760,10 +5752,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1372276507, guid: 3efd266456b672b4eb0325926f3cea3a, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 232202170364630439, guid: 3efd266456b672b4eb0325926f3cea3a,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -5942,11 +5930,6 @@ PrefabInstance:
     - target: {fileID: 7309418340168137022, guid: 3efd266456b672b4eb0325926f3cea3a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7309418340168137024, guid: 3efd266456b672b4eb0325926f3cea3a,
-        type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7309418340168137026, guid: 3efd266456b672b4eb0325926f3cea3a,
