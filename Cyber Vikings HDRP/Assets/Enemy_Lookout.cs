@@ -26,11 +26,9 @@ public class Enemy_Lookout : StateMachineBehaviour
     {
         if (Vector3.Distance(animator.transform.position, player.position) < stats.detectRadius)
         {
-            Debug.Log("Player is within detectRadius");
             RaycastHit hit;
             if (Physics.Raycast(animator.transform.position, player.position - animator.transform.position, out hit ))
             {
-                Debug.Log("Raycast for LoS cast been cast, hit " + hit.transform.name);
                 if (hit.transform.tag == "Player")
                 {
                     Debug.Log("Player has been detected");
