@@ -158,6 +158,7 @@ MonoBehaviour:
   m_Children:
   - {fileID: 8}
   - {fileID: 2}
+<<<<<<< HEAD
   m_Position:
     serializedVersion: 2
     x: 0
@@ -196,6 +197,17 @@ MonoBehaviour:
 --- !u!114 &8
 >>>>>>> Continued Greyboxing
 =======
+=======
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 414
+    height: 634
+  m_MinSize: {x: 201, y: 272}
+  m_MaxSize: {x: 4001, y: 8042}
+  vertical: 1
+>>>>>>> JackiesBranch
   controlID: 66
 --- !u!114 &4
 >>>>>>> Completed Level Greyboxing
@@ -213,16 +225,21 @@ MonoBehaviour:
 =======
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
   m_Name: AnimationWindow
 >>>>>>> Continued Greyboxing
 =======
   m_Name: 
 >>>>>>> Completed Level Greyboxing
+=======
+  m_Name: 
+>>>>>>> JackiesBranch
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
 <<<<<<< refs/remotes/origin/Main
     x: 0
@@ -237,6 +254,9 @@ MonoBehaviour:
 =======
     x: 747
 >>>>>>> Completed Level Greyboxing
+=======
+    x: 747
+>>>>>>> JackiesBranch
     y: 0
     width: 784
     height: 313
@@ -244,6 +264,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 24}
   m_Panes:
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
   - {fileID: 31}
   - {fileID: 21}
@@ -252,6 +273,8 @@ MonoBehaviour:
 --- !u!114 &9
 >>>>>>> Continued Greyboxing
 =======
+=======
+>>>>>>> JackiesBranch
   - {fileID: 24}
   - {fileID: 17}
   m_Selected: 0
@@ -301,11 +324,14 @@ MonoBehaviour:
   m_MinSize: {x: 333, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
   controlID: 228
 --- !u!114 &10
 >>>>>>> Continued Greyboxing
 =======
+=======
+>>>>>>> JackiesBranch
   controlID: 198
 --- !u!114 &6
 >>>>>>> Completed Level Greyboxing
@@ -331,6 +357,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 0
 <<<<<<< refs/remotes/origin/Main
     width: 1368
@@ -355,6 +382,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+=======
+>>>>>>> JackiesBranch
     y: 30
     width: 1920
     height: 947
@@ -376,7 +405,10 @@ MonoBehaviour:
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
 =======
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 >>>>>>> Completed Level Greyboxing
+=======
+>>>>>>> JackiesBranch
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
@@ -385,6 +417,7 @@ MonoBehaviour:
   - {fileID: 10}
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
 <<<<<<< refs/remotes/origin/Main
     x: 0
@@ -402,6 +435,10 @@ MonoBehaviour:
     x: 1531
 >>>>>>> Completed Level Greyboxing
     y: 0
+=======
+    x: 1531
+    y: 0
+>>>>>>> JackiesBranch
     width: 389
     height: 947
   m_MinSize: {x: 276, y: 71}
@@ -410,11 +447,14 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 20}
   m_Selected: 0
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
   m_LastSelected: 1
 --- !u!114 &12
 >>>>>>> Continued Greyboxing
 =======
+=======
+>>>>>>> JackiesBranch
   m_LastSelected: 0
 --- !u!114 &8
 >>>>>>> Completed Level Greyboxing
@@ -434,6 +474,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
 <<<<<<< refs/remotes/origin/Main
     width: 276
@@ -460,6 +501,15 @@ MonoBehaviour:
 =======
   - {fileID: 21}
 >>>>>>> Completed Level Greyboxing
+=======
+    width: 414
+    height: 423
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 21}
+  m_Panes:
+  - {fileID: 21}
+>>>>>>> JackiesBranch
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &9
@@ -472,17 +522,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
   m_Name: SceneView
 =======
   m_Name: 
 >>>>>>> Completed Level Greyboxing
+=======
+  m_Name: 
+>>>>>>> JackiesBranch
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 276
     y: 0
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
 <<<<<<< refs/remotes/origin/Main
     width: 842
@@ -500,16 +555,24 @@ MonoBehaviour:
     width: 747
     height: 313
 >>>>>>> Completed Level Greyboxing
+=======
+    width: 747
+    height: 313
+>>>>>>> JackiesBranch
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 19}
   m_Panes:
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
   - {fileID: 26}
 >>>>>>> Continued Greyboxing
 =======
   - {fileID: 19}
 >>>>>>> Completed Level Greyboxing
+=======
+  - {fileID: 19}
+>>>>>>> JackiesBranch
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &10
@@ -679,6 +742,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 912
     y: 0
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
 <<<<<<< refs/remotes/origin/Main
     width: 456
@@ -701,6 +765,8 @@ MonoBehaviour:
 --- !u!114 &18
 >>>>>>> Continued Greyboxing
 =======
+=======
+>>>>>>> JackiesBranch
     width: 1531
     height: 947
   m_MinSize: {x: 403, y: 543}
@@ -724,6 +790,7 @@ MonoBehaviour:
   m_Children: []
 =======
   m_Children:
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
   - {fileID: 6}
   - {fileID: 19}
@@ -732,10 +799,15 @@ MonoBehaviour:
   - {fileID: 3}
   - {fileID: 15}
 >>>>>>> Completed Level Greyboxing
+=======
+  - {fileID: 3}
+  - {fileID: 15}
+>>>>>>> JackiesBranch
   m_Position:
     serializedVersion: 2
     x: 1368
     y: 0
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
 <<<<<<< refs/remotes/origin/Main
     width: 552
@@ -759,6 +831,8 @@ MonoBehaviour:
 --- !u!114 &19
 >>>>>>> Continued Greyboxing
 =======
+=======
+>>>>>>> JackiesBranch
     width: 1531
     height: 634
   m_MinSize: {x: 403, y: 272}
@@ -1025,6 +1099,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 73
     width: 275
@@ -1064,6 +1139,22 @@ MonoBehaviour:
 =======
 --- !u!114 &25
 >>>>>>> Continued Greyboxing
+=======
+    x: 414
+    y: 0
+    width: 1117
+    height: 634
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 22}
+  m_Panes:
+  - {fileID: 22}
+  - {fileID: 23}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 2
+--- !u!114 &16
+>>>>>>> JackiesBranch
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1071,6 +1162,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
   m_EditorHideFlags: 1
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -1088,6 +1180,24 @@ MonoBehaviour:
     y: 73
     width: 840
     height: 552
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c262c1329a02fa49b5cb4c297106f3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 133, y: 30}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: ProBuilder
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 496
+    width: 413
+    height: 190
+>>>>>>> JackiesBranch
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 618340a505b72e0459545c4fb18b50f5
@@ -1189,6 +1299,35 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: 1561878555887300916, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 747
+    y: 707
+    width: 782
+    height: 294
+  m_ViewDataDictionary: {fileID: 0}
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: 17054
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -1202,6 +1341,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
     x: 468
     y: 181
@@ -1214,13 +1354,18 @@ MonoBehaviour:
 --- !u!114 &26
 >>>>>>> Continued Greyboxing
 =======
+=======
+>>>>>>> JackiesBranch
     x: 414
     y: 73
     width: 1115
     height: 613
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &19
+<<<<<<< HEAD
 >>>>>>> Completed Level Greyboxing
+=======
+>>>>>>> JackiesBranch
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1259,6 +1404,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
     - Assets/FBX/Weapons/Battleaxes
   m_ViewMode: 1
@@ -1266,17 +1412,23 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/FBX/Weapons/Battleaxes
 =======
+=======
+>>>>>>> JackiesBranch
     - Assets/Greyboxing
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/Greyboxing
+<<<<<<< HEAD
 >>>>>>> Continued Greyboxing
+=======
+>>>>>>> JackiesBranch
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\SAE Work\Git\StardustCrusaders\Cyber Vikings HDRP
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
 <<<<<<< refs/remotes/origin/Main
     scrollPos: {x: 0, y: 79}
@@ -1290,11 +1442,16 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000144a0000164a0000184a00001a4a00001c4a00001e4a0000204a0000224a0000244a0000264a0000284a00002a4a000000ca9a3b
 >>>>>>> Continued Greyboxing
 =======
+=======
+>>>>>>> JackiesBranch
     scrollPos: {x: 0, y: 64}
     m_SelectedIDs: e04a0000
     m_LastClickedID: 19168
     m_ExpandedIDs: 00000000ac4a000000ca9a3b
+<<<<<<< HEAD
 >>>>>>> Completed Level Greyboxing
+=======
+>>>>>>> JackiesBranch
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1322,6 +1479,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
 <<<<<<< refs/remotes/origin/Main
     m_ExpandedIDs: 00000000125100001451000016510000185100001a5100001c5100001e51000020510000225100002451000026510000285100002a510000
@@ -1331,6 +1489,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000ac4a0000
 >>>>>>> Completed Level Greyboxing
+=======
+    m_ExpandedIDs: 00000000ac4a0000
+>>>>>>> JackiesBranch
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1407,12 +1568,16 @@ MonoBehaviour:
 --- !u!114 &20
 =======
   m_DirectoriesAreaWidth: 115
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
 --- !u!114 &27
 >>>>>>> Continued Greyboxing
 =======
 --- !u!114 &20
 >>>>>>> Completed Level Greyboxing
+=======
+--- !u!114 &20
+>>>>>>> JackiesBranch
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1442,6 +1607,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
 <<<<<<< refs/remotes/origin/Main
     x: 0
@@ -1455,6 +1621,8 @@ MonoBehaviour:
     height: 1287
 >>>>>>> Continued Greyboxing
 =======
+=======
+>>>>>>> JackiesBranch
     x: 1531
     y: 73
     width: 388
@@ -1509,12 +1677,16 @@ MonoBehaviour:
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
 --- !u!114 &28
 >>>>>>> Continued Greyboxing
 =======
 --- !u!114 &21
 >>>>>>> Completed Level Greyboxing
+=======
+--- !u!114 &21
+>>>>>>> JackiesBranch
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1585,6 +1757,7 @@ MonoBehaviour:
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
   m_WindowGUID: 4b24665796b7bdf4c8263610f7512c8a
 --- !u!114 &29
@@ -1593,6 +1766,10 @@ MonoBehaviour:
   m_WindowGUID: 5edf92c35b00f9b438503bae402158ec
 --- !u!114 &22
 >>>>>>> Completed Level Greyboxing
+=======
+  m_WindowGUID: 5edf92c35b00f9b438503bae402158ec
+--- !u!114 &22
+>>>>>>> JackiesBranch
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1622,6 +1799,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
 <<<<<<< refs/remotes/origin/Main
     x: 1368
@@ -1653,6 +1831,12 @@ MonoBehaviour:
     width: 1115
     height: 613
 >>>>>>> Completed Level Greyboxing
+=======
+    x: 414
+    y: 73
+    width: 1115
+    height: 613
+>>>>>>> JackiesBranch
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 4719c3b154839a943af6e7f7d04b67a4
@@ -1743,12 +1927,16 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
 --- !u!114 &30
 >>>>>>> Continued Greyboxing
 =======
 --- !u!114 &23
 >>>>>>> Completed Level Greyboxing
+=======
+--- !u!114 &23
+>>>>>>> JackiesBranch
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1778,6 +1966,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
 <<<<<<< refs/remotes/origin/Main
     x: 1368
@@ -1792,11 +1981,16 @@ MonoBehaviour:
     width: 1688
     height: 771
 =======
+=======
+>>>>>>> JackiesBranch
     x: 418
     y: 81
     width: 1106
     height: 602
+<<<<<<< HEAD
 >>>>>>> Completed Level Greyboxing
+=======
+>>>>>>> JackiesBranch
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewsNames: []
   m_SerializedViewsValues: []
@@ -1861,12 +2055,16 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
 --- !u!114 &31
 >>>>>>> Continued Greyboxing
 =======
 --- !u!114 &24
 >>>>>>> Completed Level Greyboxing
+=======
+--- !u!114 &24
+>>>>>>> JackiesBranch
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1898,6 +2096,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< refs/remotes/origin/Main
     x: 1167.3334
     y: 864.6667
@@ -1905,9 +2104,14 @@ MonoBehaviour:
     height: 495
 >>>>>>> Continued Greyboxing
 =======
+=======
+>>>>>>> JackiesBranch
     x: 747
     y: 707
     width: 782
     height: 292
+<<<<<<< HEAD
 >>>>>>> Completed Level Greyboxing
+=======
+>>>>>>> JackiesBranch
   m_ViewDataDictionary: {fileID: 0}
