@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy_Lookout : StateMachineBehaviour
 {
-    Transform player;
+    public Transform player;
     EnemyStats stats;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
@@ -26,12 +26,14 @@ public class Enemy_Lookout : StateMachineBehaviour
     {
         if (Vector3.Distance(animator.transform.position, player.position) < stats.detectRadius)
         {
+            Debug.Log("Player is within radius");
             RaycastHit hit;
             if (Physics.Raycast(animator.transform.position, player.position - animator.transform.position, out hit ))
             {
+                Debug.Log("Hit " + hit.transform.name);
                 if (hit.transform.tag == "Player")
                 {
-                    //Debug.Log("Player has been detected");
+                    Debug.Log("Player has been detected");
                     animator.SetTrigger("Aggresive");
                 }
             }
