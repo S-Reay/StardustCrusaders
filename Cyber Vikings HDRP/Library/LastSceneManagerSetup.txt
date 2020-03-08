@@ -1,5 +1,13 @@
 sceneSetups:
+<<<<<<< HEAD
+<<<<<<< refs/remotes/origin/Main
 - path: Assets/Scenes/SP_EnemyAITest.unity
+=======
+- path: Assets/Scenes/JH_Greyboxing.unity
+>>>>>>> Continued Greyboxing
+=======
+- path: Assets/Scenes/JH_Greyboxing.unity
+>>>>>>> JackiesBranch
   isLoaded: 1
   isActive: 1
   isSubScene: 0
