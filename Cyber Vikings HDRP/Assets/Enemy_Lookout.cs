@@ -31,7 +31,7 @@ public class Enemy_Lookout : StateMachineBehaviour
             {
                 if (hit.transform.tag == "Player")
                 {
-                    Debug.Log("Player has been detected");
+                    //Debug.Log("Player has been detected");
                     animator.SetTrigger("Aggresive");
                 }
             }

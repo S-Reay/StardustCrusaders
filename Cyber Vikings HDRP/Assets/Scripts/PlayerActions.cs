@@ -84,7 +84,7 @@ public class PlayerActions : MonoBehaviour
 
         if (Physics.Raycast(cam.transform.position, cam.transform.forward, out hit, interactionRange))
         {
-            Debug.Log("Attempting to interact with: " + hit.transform.name);
+            //Debug.Log("Attempting to interact with: " + hit.transform.name);
 
             Interactable interactable = hit.transform.GetComponent<Interactable>();
             if (interactable != null)
@@ -98,7 +98,7 @@ public class PlayerActions : MonoBehaviour
     {
         if (currentWeapon != null)              //If there is an item equipped in the right hand
         {
-            Debug.Log("Weapon found, attempting attack");
+            //Debug.Log("Weapon found, attempting attack");
             switch (currentWeapon.rangedAttack) //Check the Ranged Attack Type
             {
                 case RangedAttackType.Raycast:
@@ -125,7 +125,7 @@ public class PlayerActions : MonoBehaviour
         {
             Debug.Log("Hit: " + hit.transform.name);
 
-            EnemyStats enemyStats = hit.transform.GetComponentInParent<EnemyStats>();
+            EnemyStats enemyStats = hit.transform.root.GetComponent<EnemyStats>();
             if (enemyStats != null)
             {
                 GameObject newIndicator = Instantiate(damageIndicator, hit.point, Quaternion.identity);
